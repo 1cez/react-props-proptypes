@@ -6,10 +6,30 @@ function App() {
   const name = "Mehmet";
   const surName = "Kara";
   const isLoggedIn = true;
+  const friends = [
+    {
+      id:1,
+      name: "Ahmet"
+    },
+    {
+      id:2,
+      name: "Mehmet"
+    },
+    {
+      id:3,
+      name: "Ali"
+    },
+  ];
 
   return (
     <>
-      <User name="Mehmet" surName="Çetin" isLoggedIn={false}/>
+      <User
+        name="Mehmet"
+        surName="Çetin"
+        isLoggedIn={true}
+        age={29}
+        friends={friends}
+      />
     </>
   );
 }
