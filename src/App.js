@@ -24,10 +24,10 @@ function App() {
   return (
     <>
       <User
-        name="Mehmet"
-        surName="Çetin"
+        // name="Mehmet"
+        // surName="Çetin"
         isLoggedIn={true}
-        age={29}
+        // age={29}
         friends={friends}
         address ={{
           title:'Ataşehir/İstanbul',
